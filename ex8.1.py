@@ -1,6 +1,6 @@
 def chop(t):
-    del t[0]
-    del t[-1]
+    let.pop()
+    let.pop(0)
 let=[1, 2, 3, 1, 2, 3, 1, 2, 3]
 chop(let)
 print('chop',let)

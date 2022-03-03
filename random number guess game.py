@@ -1,6 +1,6 @@
 import random
 for x in range(1):
-    value = random .randint(1,10)
+    value = random .randint(1, 10)
 secret_number = value
 guess_count = 0
 guess_limit = 3

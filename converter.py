@@ -4,5 +4,5 @@ if unit.upper() == "L":
     converted = weight * 0.45
     print(f"you are{converted}kilos")
 else:
-    converted = weight /0.45
+    converted = weight / 0.45
     print(f"you are{converted}pounds")

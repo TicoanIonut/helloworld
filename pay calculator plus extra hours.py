@@ -7,12 +7,14 @@ def computepay(hours, rate):
         pay = reg + otp
     else:
         pay = hours * rate
-    print('Returning',pay)
+    print('Returning', pay)
     return pay
-xh = input('enter hours')
-xr = input('enter rate')
+
+
+xh = input('enter hours ')
+xr = input('enter rate ')
 fh = float(xh)
 fr = float(xr)
-print('hours',fh,'rate',fr)
-xp= computepay(fh,fr)
+print('hours', fh, 'rate', fr)
+xp = computepay(fh, fr)
 print('pay', xp)

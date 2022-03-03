@@ -1,16 +1,18 @@
-def chop(t):
-    let.pop()
-    let.pop(0)
-let=[1, 2, 3, 1, 2, 3, 1, 2, 3]
-chop(let)
-print('chop',let)
+def chop():
+    ttt = [1, 2, 3, 1, 2, 3, 1, 2, 3]
+    ttt.pop()
+    ttt.pop(0)
+    return ttt
 
+print('chop', chop())
 
 
 def mid(s):
     del s[0]
     del s[-1]
-lll=[1, 2, 3, 1, 2, 3, 1, 2, 3]
+    return mid
+
+lll = [1, 2, 3, 1, 2, 3, 1, 2, 3]
 mid(lll)
-print('mid',lll)
+print('mid', lll)
 

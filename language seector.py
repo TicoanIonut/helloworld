@@ -5,5 +5,6 @@ def great(lang):
         print("bonjour")
     else:
         print('hello')
-great(input('enter language'))
-print(great)
+
+
+great(input('enter language\t'))

@@ -1,9 +1,10 @@
 def count():
     word = 'banana'
-    count = 0
+    cnt = 0
     for letter in word:
         if letter == 'a':
-            count = count + 1
-    print(count)
-count()
+            cnt = cnt + 1
+    print(cnt)
 
+
+count()

@@ -1,5 +1,11 @@
-def computegrade(score):
-    if zzz> 1:
+def computegrade():
+    score = input('score\n')
+    try:
+        score = float(score)
+    except ValueError:
+        print('bad score')
+        quit()
+    if score > 1:
         print('bad score')
         quit()
     elif score >= 0.9:
@@ -15,13 +21,6 @@ def computegrade(score):
     else:
         print('bad score')
     return score
-sss = input('score')
-try:
-    zzz = float(sss)
-except:
-    print('bad score')
-    quit()
-aaa = computegrade(zzz)
-print(aaa)
 
 
+computegrade()

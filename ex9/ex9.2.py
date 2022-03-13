@@ -11,6 +11,5 @@ ddict = dict()
 for line in words:
     if line.startswith('From '):
         lines = line.split()
-        print(lines)
         ddict[lines[1]] = ddict.get(lines[1], 0) + 1
 print(ddict)
